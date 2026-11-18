@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Admin — Aashray</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <aside class="sidebar"><a class="brand" href="dashboard.html"><span class="brand-mark">A</span><span>Aashray</span></a><nav class="side-nav"><a href="dashboard.html"><span>⌂</span>Dashboard</a><a href="inventory.html"><span>▦</span>Inventory</a><a href="expiry-alerts.html"><span>◷</span>Expiry Alerts <b>12</b></a><a href="low-stock.html"><span>↓</span>Low Stock <b>8</b></a><a href="equipment.html"><span>⚕</span>Equipment</a><a href="transfers.html"><span>⇄</span>Transfers</a><a href="transfer-history.html"><span>◉</span>Transfer History</a><a href="reports.html"><span>▥</span>Reports</a><a class="active" href="admin.html"><span>✓</span>Admin</a></nav><div class="sidebar-profile"><div class="avatar">PA</div><div><strong>Platform Admin</strong><span>Administrator</span></div></div></aside>
+  <main class="app-main"><header class="app-header"><div><span class="page-kicker">Platform administration</span><h1>Organization verification</h1></div><button class="btn btn-primary">View audit log</button></header>
+    <section class="stats-grid compact"><article class="stat-card"><span class="stat-label">Verified organizations</span><strong>186</strong></article><article class="stat-card warning"><span class="stat-label">Pending review</span><strong>7</strong></article><article class="stat-card alert"><span class="stat-label">Suspicious reports</span><strong>2</strong></article></section>
+    <section class="panel table-panel"><table><thead><tr><th>Organization</th><th>Type</th><th>Location</th><th>Registration</th><th>Submitted</th><th>Status</th><th>Action</th></tr></thead><tbody>
+      <tr><td><strong>Seva Community Clinic</strong><small>seva@clinic.org</small></td><td>Clinic</td><td>Pune</td><td>REG-2026-184</td><td>18 Nov 2026</td><td><span class="badge warning">Pending</span></td><td><button class="btn btn-small btn-primary">Review</button></td></tr>
+      <tr><td><strong>North Rural Health NGO</strong><small>admin@northngo.org</small></td><td>NGO</td><td>Jaipur</td><td>REG-2026-181</td><td>17 Nov 2026</td><td><span class="badge warning">Pending</span></td><td><button class="btn btn-small btn-primary">Review</button></td></tr>
+      <tr><td><strong>City Care Hospital</strong><small>admin@citycare.org</small></td><td>Hospital</td><td>Mumbai</td><td>REG-2026-041</td><td>12 Oct 2026</td><td><span class="badge success">Verified</span></td><td>•••</td></tr>
+      <tr><td><strong>Care Plus Foundation</strong><small>info@careplus.org</small></td><td>NGO</td><td>Surat</td><td>REG-2026-126</td><td>08 Sep 2026</td><td><span class="badge danger">Rejected</span></td><td>•••</td></tr>
+    </tbody></table></section>
+  </main>
+</body>
+</html>

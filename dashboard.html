@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Aashray</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="dashboard.html"><span class="brand-mark">A</span><span>Aashray</span></a>
+    <nav class="side-nav">
+      <a class="active" href="dashboard.html"><span>⌂</span>Dashboard</a>
+      <a href="inventory.html"><span>▦</span>Inventory</a>
+      <a href="expiry-alerts.html"><span>◷</span>Expiry Alerts <b>12</b></a>
+      <a href="low-stock.html"><span>↓</span>Low Stock <b>8</b></a>
+      <a href="equipment.html"><span>⚕</span>Equipment</a>
+      <a href="transfers.html"><span>⇄</span>Transfers <b>3</b></a>
+      <a href="transfer-history.html"><span>◉</span>Transfer History</a>
+      <a href="reports.html"><span>▥</span>Reports</a>
+      <a href="admin.html"><span>✓</span>Admin</a>
+    </nav>
+    <div class="sidebar-profile"><div class="avatar">CC</div><div><strong>City Care</strong><span>Hospital Admin</span></div></div>
+  </aside>
+  <main class="app-main">
+    <header class="app-header"><div><span class="page-kicker">Monday, 18 November</span><h1>Good morning, City Care</h1></div><div class="header-actions"><button class="icon-button">?</button><div class="avatar small">CC</div></div></header>
+    <section class="stats-grid">
+      <article class="stat-card"><span class="stat-label">Total inventory</span><strong>1,284</strong><small class="positive">↑ 6.2% this month</small></article>
+      <article class="stat-card warning"><span class="stat-label">Near expiry</span><strong>12</strong><small>Within 90 days</small></article>
+      <article class="stat-card alert"><span class="stat-label">Low stock</span><strong>8</strong><small>Needs replenishment</small></article>
+      <article class="stat-card"><span class="stat-label">Pending transfers</span><strong>3</strong><small>1 awaiting approval</small></article>
+    </section>
+    <section class="dashboard-grid">
+      <article class="panel inventory-overview"><div class="panel-heading"><div><span class="page-kicker">Inventory</span><h2>Resource overview</h2></div><a href="inventory.html">View all</a></div>
+        <div class="category-bars">
+          <div><span>Medicines</span><div class="bar"><i style="width:82%"></i></div><strong>532</strong></div>
+          <div><span>Equipment</span><div class="bar"><i style="width:58%"></i></div><strong>274</strong></div>
+          <div><span>Surgical items</span><div class="bar"><i style="width:48%"></i></div><strong>218</strong></div>
+          <div><span>PPE & safety</span><div class="bar"><i style="width:36%"></i></div><strong>156</strong></div>
+        </div>
+      </article>
+      <article class="panel alert-panel"><div class="panel-heading"><div><span class="page-kicker">Attention</span><h2>Urgent alerts</h2></div></div>
+        <div class="alert-item"><span class="alert-symbol critical">!</span><div><strong>Paracetamol 500mg</strong><small>Expires in 7 days · 200 tablets</small></div><a href="expiry-alerts.html">›</a></div>
+        <div class="alert-item"><span class="alert-symbol warning">↓</span><div><strong>Surgical gloves</strong><small>Only 24 units remaining</small></div><a href="low-stock.html">›</a></div>
+        <div class="alert-item"><span class="alert-symbol maintenance">W</span><div><strong>BP Monitor BPM-8891</strong><small>Maintenance required</small></div><a href="equipment.html">›</a></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

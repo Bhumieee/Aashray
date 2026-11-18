@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register — Aashray</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page register-page">
+  <div class="auth-brand-panel">
+    <a class="brand brand-light" href="index.html"><span class="brand-mark">A</span><span>Aashray</span></a>
+    <blockquote>Join a trusted network built around responsible care.</blockquote>
+  </div>
+  <main class="auth-form-panel">
+    <form class="auth-form wide-form" action="login.html">
+      <div class="auth-heading"><span class="eyebrow">Organization registration</span><h1>Create your account</h1></div>
+      <div class="form-grid">
+        <label>Organization name<input type="text" placeholder="City Care Hospital" required></label>
+        <label>Organization type<select><option>Hospital</option><option>NGO</option><option>Clinic</option><option>Community Health Center</option></select></label>
+        <label>Email address<input type="email" placeholder="admin@organization.org" required></label>
+        <label>Phone number<input type="tel" placeholder="+91 98765 43210"></label>
+        <label>Registration / license number<input type="text" placeholder="REG-2026-001"></label>
+        <label>City / address<input type="text" placeholder="Mumbai"></label>
+      </div>
+      <label class="check-label"><input type="checkbox" required> I confirm that the organization details are accurate.</label>
+      <button class="btn btn-primary btn-full" type="submit">Submit for verification</button>
+      <p class="auth-switch">Already registered? <a href="login.html">Sign in</a></p>
+    </form>
+  </main>
+</body>
+</html>

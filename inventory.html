@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Inventory — Aashray</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+  <aside class="sidebar"><a class="brand" href="dashboard.html"><span class="brand-mark">A</span><span>Aashray</span></a><nav class="side-nav">
+    <a href="dashboard.html"><span>⌂</span>Dashboard</a><a class="active" href="inventory.html"><span>▦</span>Inventory</a><a href="expiry-alerts.html"><span>◷</span>Expiry Alerts <b>12</b></a><a href="low-stock.html"><span>↓</span>Low Stock <b>8</b></a><a href="equipment.html"><span>⚕</span>Equipment</a><a href="transfers.html"><span>⇄</span>Transfers</a><a href="transfer-history.html"><span>◉</span>Transfer History</a><a href="reports.html"><span>▥</span>Reports</a><a href="admin.html"><span>✓</span>Admin</a>
+  </nav><div class="sidebar-profile"><div class="avatar">CC</div><div><strong>City Care</strong><span>Hospital Admin</span></div></div></aside>
+  <main class="app-main">
+    <header class="app-header"><div><span class="page-kicker">Inventory</span><h1>Resource inventory</h1></div><button class="btn btn-primary">+ Add resource</button></header>
+    <section class="toolbar"><label class="search-field">⌕<input type="search" placeholder="Search by name or batch"></label><select><option>All categories</option><option>Medicines</option><option>Equipment</option><option>Surgical items</option></select><select><option>All statuses</option><option>Available</option><option>Near expiry</option><option>Low stock</option></select></section>
+    <section class="panel table-panel"><table><thead><tr><th>Resource</th><th>Category</th><th>Batch / Serial</th><th>Quantity</th><th>Expiry</th><th>Status</th><th></th></tr></thead><tbody>
+      <tr><td><strong>Paracetamol 500mg</strong><small>Johnson Pharma</small></td><td>Medicine</td><td>PCM-2026-01</td><td>200 tablets</td><td>25 Nov 2026</td><td><span class="badge danger">Critical expiry</span></td><td>•••</td></tr>
+      <tr><td><strong>Digital BP Monitor</strong><small>Omron</small></td><td>Equipment</td><td>BPM-8891</td><td>2 units</td><td>—</td><td><span class="badge success">Available</span></td><td>•••</td></tr>
+      <tr><td><strong>Surgical Gloves</strong><small>Medline</small></td><td>Surgical items</td><td>SG-4412</td><td>24 pairs</td><td>12 Apr 2027</td><td><span class="badge warning">Low stock</span></td><td>•••</td></tr>
+      <tr><td><strong>Rapid Test Kit</strong><small>Abbott</small></td><td>Diagnostic</td><td>RTK-1187</td><td>80 units</td><td>18 Jan 2027</td><td><span class="badge warning">Near expiry</span></td><td>•••</td></tr>
+      <tr><td><strong>N95 Respirator</strong><small>3M</small></td><td>PPE</td><td>N95-2240</td><td>350 units</td><td>30 Jun 2027</td><td><span class="badge success">Available</span></td><td>•••</td></tr>
+    </tbody></table></section>
+  </main>
+</body>
+</html>
